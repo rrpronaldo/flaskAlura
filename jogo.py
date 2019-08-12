@@ -79,4 +79,4 @@ def criar():
     lista.append(jogo)
     return redirect(url_for('index'))
 
-app.run( debug=True)
+app.run( )
